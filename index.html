@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Verified Profiles List Sri Lanka</title>
+
+<style>
+body{
+  margin:0;
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#e5e7eb;
+  overflow:hidden;
+}
+
+/* 🌄 BACKGROUND IMAGE */
+body::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:url("https://images.unsplash.com/photo-1520975922284-9f3b0d3c1a0d") center/cover no-repeat;
+  filter:blur(10px);
+  transform:scale(1.1);
+  z-index:-2;
+}
+
+/* DARK OVERLAY */
+body::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background:rgba(0,0,0,0.6);
+  z-index:-1;
+}
+
+/* WRAPPER */
+.wrapper{
+  width:360px;
+}
+
+/* TITLE */
+.site-title{
+  text-align:center;
+  font-size:16px;
+  font-weight:600;
+  margin-bottom:12px;
+  color:#1DA1F2;
+  letter-spacing:1px;
+}
+
+/* CARD */
+.card{
+  background:rgba(17,24,39,0.9);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:18px;
+  padding:24px;
+  text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,0.6);
+}
+
+/* IMAGE */
+img{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  border:3px solid #1DA1F2;
+  object-fit:cover;
+  box-shadow:0 0 18px rgba(29,161,242,0.4);
+}
+
+/* NAME */
+h2{
+  margin:12px 0 5px;
+}
+
+/* VERIFIED BADGE */
+.badge{
+  display:inline-block;
+  width:18px;
+  height:18px;
+  background:#1DA1F2;
+  color:white;
+  border-radius:50%;
+  font-size:12px;
+  line-height:18px;
+  margin-left:6px;
+  box-shadow:0 0 12px #1DA1F2;
+}
+
+/* STATUS */
+.status{
+  font-size:13px;
+  color:#22c55e;
+  margin-bottom:15px;
+}
+
+/* BUTTONS */
+.btn{
+  width:100%;
+  padding:11px;
+  margin:7px 0;
+  border:none;
+  border-radius:12px;
+  font-size:14px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.btn:hover{
+  transform:scale(1.03);
+}
+
+/* COLORS */
+.telegram{
+  background:#1DA1F2;
+  color:white;
+}
+
+.whatsapp{
+  background:#22c55e;
+  color:white;
+}
+
+.pay{
+  background:#facc15;
+  color:#111827;
+}
+
+small{
+  display:block;
+  margin-top:10px;
+  font-size:11px;
+  opacity:0.6;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="site-title">
+✔ Verified Profiles List • Sri Lanka
+</div>
+
+<div class="card">
+
+<img src="https://d18fr84zq3fgpm.cloudfront.net/hot-live-cam-girl-sri-lankan-escort-in-colombo-2797432_original.jpg">
+
+<h2>
+Piyu Girl <span class="badge">✔</span>
+</h2>
+
+<div class="status">🟢 Online • Active Now</div>
+
+<!-- TELEGRAM BUTTON (WORKING) -->
+<button class="btn telegram" onclick="window.open('https://t.me/piyugirl')">
+Message on Telegram
+</button>
+
+<!-- WHATSAPP -->
+<button class="btn whatsapp" onclick="window.location.href='notice.html'">
+Continue via WhatsApp
+</button>
+
+<!-- PAY -->
+<button class="btn pay" onclick="alert('Secure payment demo')">
+Secure Payment
+</button>
+
+<small>Trusted • Verified • Secure</small>
+
+</div>
+
+</div>
+
+</body>
+</html>
